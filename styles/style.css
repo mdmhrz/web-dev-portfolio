@@ -6,6 +6,13 @@
     font-family: Ibm Plex Mono;
 }
 
+/* Shared Styles */
+
+.center {
+    text-align: center;
+}
+
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -14,6 +21,30 @@
     color: #474747;
 }
 
+.flex {
+    display: flex;
+    /* align-items: center; */
+}
+
+.primary-bg {
+    background-color: #FFF8F3;
+}
+
+.text-third {
+    color: #757575;
+    line-height: 30px;
+}
+
+.section-heading {
+    font-size: 34px;
+}
+
+.gap {
+    margin-bottom: 30px;
+}
+
+
+/* Style for Header */
 .head-title {
     font-size: 36px;
 }
@@ -22,7 +53,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 50px 180px;
 }
 
 nav ul {
@@ -44,11 +75,71 @@ nav li a {
     background-color: #FD6E0A;
     color: white;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     padding: 14px 20px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
+.banner-content {
+    margin-left: 180px;
+}
 
+.banner-image {
+    margin-right: 38px;
+    width: 586px;
+    
+}
 
+.banner-title {
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin-bottom: 20px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    height: 837px;
+    margin-bottom: 130px;
+}
+
+/* Styles for main */
+
+main {
+    padding: 0px 180px 0 180px;
+}
+
+/* Styles for Section */
+
+section{
+    padding: 0 auto;
+    margin-bottom: 100px;
+}
+
+/* Styles for About Section */
+
+.about-elements{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-particulars > p {
+    margin-bottom: 10px;
+}
+
+.about-section {
+    padding: 30px;
+}
