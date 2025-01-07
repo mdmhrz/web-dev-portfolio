@@ -44,6 +44,7 @@
 }
 
 
+
 /* Style for Header */
 .head-title {
     font-size: 36px;
@@ -159,4 +160,20 @@ section{
 
 .skills-container {
     gap: 20px
+}
+
+.skill p{
+    font-size: 12px;
+}
+
+.g-gap {
+    gap: 40px
+}
+
+/* Styles for Resume */
+
+.cv-column-data p, .exp-column-data p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
