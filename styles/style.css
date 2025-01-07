@@ -177,3 +177,37 @@ section{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.resume-download-button {
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Styles for Footer */
+
+footer {
+    padding: 50px 50px;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.footer-contact {
+    width: 40%;
+}
+
+.footer-form {
+    width: 40%;
+}
+
+input[type="text"], [type="email"], textarea {
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    outline-color: rgba(0, 0, 0, 0.08) ;
+
+}
