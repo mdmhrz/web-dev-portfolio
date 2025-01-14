@@ -90,7 +90,7 @@ nav li a {
 .banner-image {
     margin-right: 38px;
     width: 586px;
-    
+
 }
 
 .banner-title {
@@ -125,19 +125,20 @@ main {
 
 /* Styles for Section */
 
-section{
+section {
     margin: 0 auto;
     margin-bottom: 100px;
 }
 
+
 /* Styles for About Section */
 
-.about-elements{
+.about-elements {
     align-items: center;
     justify-content: space-around;
 }
 
-.about-particulars > p {
+.about-particulars>p {
     margin-bottom: 10px;
 }
 
@@ -162,7 +163,7 @@ section{
     gap: 20px
 }
 
-.skill p{
+.skill p {
     font-size: 12px;
 }
 
@@ -172,7 +173,8 @@ section{
 
 /* Styles for Resume */
 
-.cv-column-data p, .exp-column-data p {
+.cv-column-data p,
+.exp-column-data p {
     font-size: 13px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -201,13 +203,95 @@ footer {
     width: 40%;
 }
 
-input[type="text"], [type="email"], textarea {
+input[type="text"],
+[type="email"],
+textarea {
     padding: 15px 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: none;
     width: 100%;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
-    outline-color: rgba(0, 0, 0, 0.08) ;
+    outline-color: rgba(0, 0, 0, 0.08);
+
+}
+
+
+@media screen and (max-width: 567px) {
+    .hide {
+        display: none;
+    }
+
+    .about-elements,
+    .skills-container,
+    .resume-container,
+    .banner,
+    footer {
+        flex-direction: column;
+        gap: 15px
+    }
+
+    header {
+        background-image: none;
+        height: auto;
+    }
+
+    .banner-content {
+        margin: 0;
+    }
+
+    .banner-image {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    .btn-primary {
+        margin-bottom: 14px;
+    }
+
+    main,
+    header {
+        padding: 0 4%;
+    }
+
+    .about-section {
+        padding: 30px 30px;
+    }
+
+    footer {
+        padding: 20px;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-contact {
+        width: 100%;
+    }
+
+    .footer-form {
+        width: 100%;
+    }
+
+    input[type="text"],
+    [type="email"],
+    textarea {
+        padding: 15px 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: none;
+        width: calc((100% - 15px));
+        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+        outline-color: rgba(0, 0, 0, 0.08);
+
+    }
+
+
+
+
+
 
 }
